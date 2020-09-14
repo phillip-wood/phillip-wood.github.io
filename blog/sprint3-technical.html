@@ -53,22 +53,23 @@ An example of a loop would be me trying to find a carpark close to where I want 
     </row>
 </table>
 
-<p>This code example shows the HTML structure of a table element shown above, the DOM interprets the code and understands the relationship of each element of the “Table”. You can see that the Table has two rows three headings, and 4 values, the web browser is not going to print these items as a list like in the HTML code you can see on the left, it is going to implement a structure as you can see in the table on the above. 
-    JavaScript allows you to manipulate HTML but its important to understand how the DOM works before doing this as if the JavaScript is interpreted by the DOM before the HTML element being manipulated then technically it does not yet exist to be manipulated, developers use the code "DOMContentLoaded" to get around this error which tells the Dom to read all the HTML before running this function.
+<p>This code example shows the HTML structure of a table element, shown above. The DOM interprets the code and understands the relationship of each element and how they should be presented within the 'Table'. As you can see, the Table has two rows, three headings, and 4 values. In the HTML code on the left you can see theses items listed. DOM means that the web browser knows not to simply show these items as they appear in the code, but instead in a table format, as you can see above.
+    
+    <br><br>JavaScript allows you to manipulate HTML but its important to understand how the DOM works before doing this. The DOM reads code from top to bottom; that means that if the JavaScript is read by the DOM <i>before</i> the HTML element then the manipulation you intended for your Javascript to apply will not work as the associated HTML element will not technically exist yet. Developers use the code "DOMContentLoaded" to get around this error which tells the DOM to read all the HTML before running a particular Javascript function.
     </p>
 </div>
 
-<div class="card" id="card1"><h2 link="" style="display: inline;">Arrays and Objects.</h2></div>
+<div class="card" id="card1"><h2 link="" style="display: inline;">Arrays and Objects</h2></div>
 <div class="card" style="text-align:left; background-color: #faf6e6;">
    
-<p><img src="../imgs/tb3shop.JPG" alt="" Style="float:right; width:auto; height: 80px;">A JavaScript array is a data structure consisting of a collection of elements, it has no order it is just a list of elements that you can access via an index. An array is indexed starting from 0 and can be accessed by calling the array along with the index of the element you wish to return. An example of an array would be a grocery list.<br><br><img src="../imgs/tb3Obj.JPG" alt="" Style="float:left; width:auto; height: 200px;">
-    A JavaScript object is very much the same as an array however it is slightly more structured as it has properties, an example of a JS object could be an airline flight, the flight has a flight number, duration, destination etc. You can access JS objects and any of their properties by simply calling the object and the name of the property you would like to access.<br><br><br><br><br>
+<p><img src="../imgs/tb3shop.JPG" alt="" Style="float:right; width:auto; height: 80px;">A JavaScript array is a data structure consisting of a collection of elements. It has no particular order it is simply a list of elements that you can access via an index. An array is indexed starting from 0 and can be accessed by calling the array along with the index of the element you wish to return. An example of an array would be a grocery list.<br><br><img src="../imgs/tb3Obj.JPG" alt="" Style="float:left; width:auto; height: 200px;">
+    A JavaScript object is very similar to an array, however it is slightly more structured as it has properties. An example of a JavaScript object could be an airline flight and it's associated information; the flight has a flight number, duration, destination etc. You can access JavaScript objects and any of their properties by simply calling the object and the name of the property you would like to access.<br><br><br><br><br>
 </div>
 
 <div class="card" id="card1"><h2 link="" style="display: inline;"> Functions</h2></div>
 <div class="card" style="text-align:left; background-color: #faf6e6;">
-<p> A function in JavaScript is a procedure set of statements that performs a task or calculates a value, but for a procedure to qualify as a function, 
-    it should take some input and return an output where there is some obvious relationship between the input and the output.<br><br>Functions are one of the fundamental building blocks in JavaScript becasuse they speed up workflow by allowing you to simply call a function by name with an input and it will follow the preprogramed procedure on that input and produce an output. Writing JS code would be very difficult if we could not write our own functions you call on time and time agin to process large data but even worse if we could not call on built-in functions we did not even have to write such as ".lenght" and "console.log".    </p>
+<p> In JavaScript, a 'function' is a procedure set of statements that performs a task or calculates a value. For a procedure to qualify as a function, 
+    it should most likely receive an input and return an output.<br><br>Functions are one of the fundamental building blocks in JavaScript becasuse they speed up workflow by allowing you to simply call a function by name with an input and have your programme follow the preprogramed procedure on that input and produce an output. Writing JS code would be very difficult if we could not write our own functions. Without functions you would have to make calls time and time again in order to process large volumes of data. To make matters worse, without access to JavaScripts pre-written functions, we could not call on built-in functions such as ".length" and "console.log".    </p>
 </div>
 
 </div>
