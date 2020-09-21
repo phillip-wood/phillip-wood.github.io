@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>PW Technical Blog 4</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+    <div class="header">
+      <h1>Technical Blog</h1><h2>Phillip Wood Foundations</h2>
+    </div>
+
+    <div class="row">
+    <div class="middlecolumn">
+        <div class="card" id="card1"><h2 link="">Blocked on a Simple Problem</h2>
+        </div>
+        <div class="card" style="text-align:left; background-color: #faf6e6;">
+            <p>I found myself blocked when creating a function to remove the word “buzz” in all its forms from any given sentence. 
+                I started off by calling the replace method which allows you to input both a string/word you would like to replace and a string/word you want to replace it with. 
+                As you can see below it worked but instead of replace the word buzz with nothing it created an empty space.</p>
+            <img src="../imgs/tb4space.JPG" style="width: 100%";>
+            <p>To solve the problem, I started off by logging the outputs to the console and then googling why I was getting the spaces instead of nothing. 
+                After 5 mins of nothing useful from google and my anger just building, I decided to return to my code and mess around with the replace requirements “/buzz/gi”. 
+                The word I wanted to replace was “buzz” the “g” extension told the replace method to look for all occurrences of “buzz” and the “i” extension told it “buzz” 
+                was case incentive e.g. “Buzz”, “buZZ”.</p>
+            <img src="../imgs/tb4space1.JPG" style="width: 100%;">
+            <p>While messing around I changed the input to the replace method to “/buzz  /gi“ which told it to replace the word buzz plus one space after it with just one space and that worked
+                I passed test 2 but test 3 failed because the sentence ended with “buzz” with no space after it so my replace method would not work</p>
+            <img src="../imgs/tb4space2.JPG" style="width: 100%;">
+            <p>I returned to console logging and troubleshooting and decided to make the problem easier and just come up with a solution to replace the word “buzz” but with a space in front of it so “ buzz” with one empty space. 
+                To solve the problem I simply did what I did last time but put the space before buzz and it worked “/ buzz /gi“, then I used both solutions one after the other and it solved all the tests and 
+                I learned to breakdown a problem into smaller problems and focus on solving one small problem at a time.</p>
+
+        </div>
+        <div class="card" id="card1"><h2 link="">Elegant Solutions</h2>
+        </div>
+        <div class="card" style="text-align:left; background-color: #faf6e6;">
+            <p>The problem I was given was to write a function that would join an array or collection of words together into one big word, so if given the words “to” and “day” the function would return “today”.<br><br> 
+                I started the problem by studying what was required to pass test’s 1,2 & 3 and then writing down pseudocode which is basically just writing down what you want to happen in a text format that is not read by the computer but only by other people using your code. 
+                I wrote “join an array into one string” and then I googled that and the first thing to come up was the join method.</p>
+            <img src="../imgs/tb4space3.JPG" style="width: 100%;">
+            <p>I did a bit of reading then copied the second example shown above into my function and it worked I passed all three tests and felt proud of my googling abilities. When I reflected on this later I learned that writing down what you want in plain English is a great way to start and also a great way to google.</p>
+        </div>
+        <div class="card" id="card1"><h2 link="">Problem Solving Techniques</h2>
+        </div>
+        <div class="card" style="text-align:left; background-color: #faf6e6;">
+        
+            <p>Pseudocode – This is a great way to start a problem but I’m not overly confident I’m writing it in a way that others can understand.<br><br>
+                Trying something – Very confident trying all kinds of solutions and saving each iteration in case I need it later.<br><br>
+                Rubber ducky method – Not confident using this method as I share an office with others and it seems strange.<br><br>
+                Reading error messages – No idea what the messages mean most of the time I just look for the line refences.<br><br>
+                Console.logging – This paired with “Trying something” is a great way to stumble into a solution.<br><br>
+                Googling – This is actually hard to do in the tech realm as there are so many solutions but I’m getting more confident with experience.<br><br> 
+                Asking your peers for help – Talking with peers is a great way to feel less alone regarding problems but also to get some good tips as they are working on the same tasks.<br><br>
+                Asking coaches for help – Have not asked for help from coaches as of yet.<br><br>  
+                Improving your process with reflection – Reflecting is one of the key things to getting better because you get more out of each problem not only solving the problem itself but then you get to look back on how you did it.
+                </p>
+
+
+
+        </div>
+  </div>
+  </div>
+  </div>
+  <div class="footer" onclick="location.href='../index.html';">
+    <h2>Home</h2>
+</div> 
+  
+  </body>
+</html>
